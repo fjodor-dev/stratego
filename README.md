@@ -1,6 +1,8 @@
 # stratego
 
-this is a project of the game stratego that i made with java and javaFX. 
+this is a project of the game stratego that i made with java and javaFX.
+i treid mostly making it in a way that yo can expend the scale of the project with inheretence and other stuf like this.
+because of this i could easely add extra setting to the game like playing a smaller game and moveble Flags and Boms for exemple.
 the things i treid to practice/learn with this project where:
 
   being consistand with encapsulation(Setters/Getters),
