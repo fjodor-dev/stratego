@@ -23,7 +23,9 @@ the things i treid to practice/learn with this project where:
 
 the only thing that i coudn't figure out was how can configure packages so you can make full use of all the acces modifiers and certain shield of methods i faild at this
 
-i think the time that i spend on this is around 50 hours that is with all the learnig included. i think i spend atleast 15 hours of pure learning trew watching youtube and reading forms and ducumentations and another 6 or so planning and the rest coding in eclipse and doing some minor graphical stuff
+i think the time that i spend on this is around 50 hours that is with all the learnig included. i think i spend atleast 15 hours of pure learning trew watching youtube and reading forms and ducumentations and another 6 or so planning and the rest coding in eclipse and doing some minor graphical stuff.
+
+i hef no idea how i can make a decent application of this yet, but i think the most importend part was the use of OOP.
 
 
 
