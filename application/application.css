@@ -1,0 +1,188 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#titleScreen{
+	-fx-background-image: url("pictures/napolionicWar.png");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: stretch;
+    -fx-background-position:right;
+    -fx-background-color: #252525;
+}
+
+#coverForPieces {
+	
+	-fx-background-color: #252525;
+}
+
+#alert {
+	-fx-background-color: #252525;
+	-fx-background-image: url("pictures/cover.png");
+	-fx-background-position: center;
+	-fx-background-size: 100% auto;
+	-fx-border-color: #252525;
+	-fx-border-style: solid;
+	-fx-border-width: 5px 0 5px 0;
+	visibility: hidden;
+	
+}
+
+#alert Text{
+	-fx-font-size: 40px;
+	-fx-font-family: Garamond;
+	-fx-underline: true;
+	
+	
+
+}
+
+#coverForPieces Pane{
+	
+	-fx-background-radius: 15px;
+	-fx-background-insets: 0px
+	
+}
+
+#coverHeader{
+	-fx-background-image: url("pictures/battleScene.jpg");
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:top;
+    -fx-background-color: black;
+    -fx-border-color: #cfa638;
+	-fx-border-width: 0px 0 2px 0;
+	-fx-border-style: solid;
+}
+
+#bordSpaceLoaded{
+	
+	-fx-background-image: url("pictures/landscape3.jpg");
+    -fx-background-repeat: repeat;   
+    -fx-background-size:  100 100;
+    -fx-background-position:  center;
+    
+}
+
+#bordSpaceNotLoaded{
+	
+	-fx-background-image: url("pictures/soldier.png");
+    -fx-background-repeat: no-repeat; 
+    -fx-background-size: auto 600;
+    -fx-background-position: right;
+    
+}
+
+#listHeader{
+	-fx-background-image: url("pictures/strategohHeaderTransparent.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center ;
+    -fx-background-size: contain  ;
+	-fx-border-color: cfa638;
+	-fx-border-width: 2px 0 2px 0;
+	-fx-border-style: solid;
+}
+
+
+#list{
+	-fx-background-image: url("pictures/oldPaperBackground.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size:  cover;
+}
+
+Pane{
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: bottom;
+	-fx-background-size: contain;
+	-fx-background-insets: 4px 3px 1px 3px;
+	-fx-background-radius: 3px;
+}
+
+CheckBox{
+
+	-fx-font-size: 14px;
+	
+	-fx-padding: 0 0 20px 5px;
+	-fx-underline: true;
+	
+}
+
+CheckBox .box{
+	-fx-background-color: Transparent;
+	-fx-border-color: black;
+	-fx-border-width: 2px;
+	-fx-border-style: dashed   ;
+	-fx-border-radius: 5px;
+}
+
+Button{
+	-fx-background-color: #cfa638;
+	-fx-border-style: none;
+	-fx-font-size: 15px;
+	-fx-font-family: Garamond;
+	
+}
+
+Label{
+	
+	-fx-font-size: 30px;
+	-fx-padding: 5px;
+	-fx-alignment: bottom-right;
+	-fx-font-family: Garamond;
+	
+}
+#attackArrow{
+	-fx-background-image: url("pictures/orangeArrow.png");
+	-fx-background-position: center;
+	
+}
+
+
+#idSecret{
+	-fx-background-image: url("pictures/strategoLetter.png");
+	-fx-background-size: 50%;
+	-fx-background-position: center 
+}
+
+
+#idForWater{
+	-fx-background-image: url("pictures/lakeTopView.png");
+	-fx-background-radius: 0px;
+	-fx-background-size: stretch;
+	-fx-background-insets: 0px;
+	
+}
+
+#idForFlag{
+	-fx-background-image: url("pictures/StrategoFlag.png");
+}
+#idForBom{
+	-fx-background-image: url("pictures/Stratego0.png");
+}
+#idForSpy{
+	-fx-background-image: url("pictures/Stratego1.png");
+}
+#idForScout{
+	-fx-background-image: url("pictures/Stratego2.png");
+}
+#idForMiner{
+	-fx-background-image: url("pictures/Stratego3.png");
+}
+#idForRank4{
+	-fx-background-image: url("pictures/Stratego4.png");
+}
+#idForRank5{
+	-fx-background-image: url("pictures/Stratego5.png");
+}
+#idForRank6{
+	-fx-background-image: url("pictures/Stratego6.png");
+}
+#idForRank7{
+	-fx-background-image: url("pictures/Stratego7.png");
+}
+#idForRank8{
+	-fx-background-image: url("pictures/Stratego8.png");
+}
+#idForRank9{
+	-fx-background-image: url("pictures/Stratego9.png");
+}
+#idForRank10{
+	-fx-background-image: url("pictures/Stratego10.png");
+}
+

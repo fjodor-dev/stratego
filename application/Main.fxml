@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="titleScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#goAwayFromTheTitleScreen" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox fx:id="list" alignment="BOTTOM_CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="600.0" prefWidth="200.0" visible="false" AnchorPane.topAnchor="0.0">
+         <children>
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="447.0" mnemonicParsing="false" onAction="#allowSpyDefeatsCurrentHighestRankingPiece" prefHeight="22.0" prefWidth="201.0" text="Spy Defeats Highest Rank" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="469.0" mnemonicParsing="false" onAction="#allowMoveableFlag" prefHeight="22.0" prefWidth="201.0" text="Moveable Flag" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="491.0" mnemonicParsing="false" onAction="#allowCaptainCanMoveTwoSquares" prefHeight="22.0" prefWidth="201.0" text="Increase Range Captain" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="513.0" mnemonicParsing="false" onAction="#allowMoveableBombs" prefHeight="22.0" prefWidth="201.0" text="Moveable Bombs" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="535.0" mnemonicParsing="false" onAction="#allowBomsDestroyOnImpact" prefHeight="22.0" prefWidth="201.0" text="Boms Destroy On Impact" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" layoutX="10.0" layoutY="300.0" mnemonicParsing="false" onAction="#playASmallGame" prefHeight="22.0" prefWidth="201.0" text="Play a Small game" textAlignment="CENTER" />
+            <CheckBox contentDisplay="CENTER" mnemonicParsing="false" onAction="#allowDiagonalMovement" prefHeight="22.0" prefWidth="200.0" text="Allow diagonol movement" textAlignment="CENTER" />
+            <Button fx:id="makeTheGameButton" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#makeTheGame" prefHeight="31.0" prefWidth="202.0" text="make the game" textAlignment="CENTER" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+      <FlowPane fx:id="bordSpace" alignment="CENTER" layoutX="200.0" prefHeight="600.0" prefWidth="600.0" visible="false" />
+      <AnchorPane fx:id="coverForPieces" layoutX="200.0" prefHeight="600.0" prefWidth="600.0" visible="false">
+         <children>
+            <AnchorPane id="coverHeader" prefHeight="300.0" prefWidth="600.0" />
+            <AnchorPane id="resultOfBattle" layoutY="300.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="300.0" prefWidth="600.0">
+               <children>
+                  <Button alignment="CENTER" layoutX="250.0" layoutY="175.0" minWidth="53.0" mnemonicParsing="false" onAction="#removeCover" prefHeight="31.0" prefWidth="100.0" text="next player" textAlignment="CENTER" />
+                  <Pane fx:id="result1" layoutX="100.0" layoutY="25.0" prefHeight="150.0" prefWidth="150.0" />
+                  <Pane fx:id="result2" layoutX="350.0" layoutY="25.0" prefHeight="150.0" prefWidth="150.0" />
+                  <Pane id="attackArrow" fx:id="attackArrow" layoutX="250.0" layoutY="50.0" prefHeight="100.0" prefWidth="100.0" visible="false" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="listHeader" layoutY="171.0" prefHeight="220.0" prefWidth="800.0" />
+      <AnchorPane id="alert" fx:id="alert" layoutX="200.0" layoutY="150.0" prefHeight="300.0" prefWidth="600.0">
+         <children>
+            <Text id="alertText" fx:id="alertText" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="600.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
