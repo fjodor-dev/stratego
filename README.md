@@ -1,6 +1,9 @@
 # stratego
 
+https://youtu.be/94wvmVOIH5w
 
+
+https://youtu.be/Te3ROu2k4zw
 
 
 this is a project of the game Stratego that i made with java and JavaFX. i tried to mostly making it in a way that you can expend the scale of the project with inheritance and other stuff like this. because of this i could easily add extra settings to the game like playing a smaller game and movable Flags and Bom’s for example. the things i tried to practice/learn with this project where:
