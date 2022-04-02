@@ -1,7 +1,10 @@
 # stratego
 
+![Stratego 2-4-2022 21_16_22](https://user-images.githubusercontent.com/89782014/161397943-1968445b-f992-442a-bb0e-65a7286f9587.png)
+
 https://youtu.be/94wvmVOIH5w
 
+![Stratego 2-4-2022 21_16_09 (1)](https://user-images.githubusercontent.com/89782014/161397952-1074fe29-7b57-4e78-aa9f-4d43f20d6682.png)
 
 https://youtu.be/Te3ROu2k4zw
 
