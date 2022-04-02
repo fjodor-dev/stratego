@@ -4,7 +4,8 @@
 
 https://youtu.be/94wvmVOIH5w
 
-![Stratego 2-4-2022 21_16_09 (1)](https://user-images.githubusercontent.com/89782014/161397952-1074fe29-7b57-4e78-aa9f-4d43f20d6682.png)
+![Stratego 2-4-2022 21_14_40](https://user-images.githubusercontent.com/89782014/161397973-ddbdf904-74bb-4354-8f76-f8f5cd29cd43.png)
+
 
 https://youtu.be/Te3ROu2k4zw
 
